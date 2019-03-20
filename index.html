@@ -131,12 +131,6 @@ footer {
     top: 130px;
   }
 
-  #z11 {
-    height: 100px;
-    width: 150px;
-    left: 740px;
-    top: 265px;
-  }
 
   #z12 {
     height: 100px;
@@ -213,10 +207,20 @@ footer {
     left: 898px;
     top: 152px;
   }
+	
+  #nb7 {
+    height: 100px;
+    width: 150px;
+    left: 740px;
+    top: 265px;
+  }
 
 </style>
 
-<script type="text/javascript" src="https://d3js.org/d3.v3.min.js">
+<script type="text/javascript">
+	
+	src="https://d3js.org/d3.v3.min.js"
+	
 	function action1 () {
             var i1;
             i1 = document.getElementById("input1").value;
@@ -310,9 +314,6 @@ footer {
 <div id="z10">
     70%
 </div>
-<div id="z11">
-    </br>обеспеченные залогом требования, включая %, а также мораторные % - п.8 Пленума №88 от 06.12.2013
-</div>
 
 <div id="z13">
     обеспеченная залогом неустойка</br>(Определение ВС РФ от 30.03.2017 №301-ЭС16-17271 и п.14 Обзора ВС РФ №3(2017) от 12.07.2017)
@@ -378,7 +379,27 @@ footer {
 <p id="nb61" style = "display: none; background-color: white; text-align: left;">Не удовлетворённые за счёт стоимости предмета залога требования кредиторов по обязательствам, обеспеченным залогом имущества должника, удовлетворяются в составе требований кредиторов третьей очереди (абз.4 п.2.1. ст.138 ЗоБ).
 </br>При расчётах с кредиторами необходимо иметь в виду, что требования залогового кредитора [не имеющего денежных требований к должнику] не могут погашаться из выручки от продажи имущества, не находящегося в залоге (п.20 ППВАС58).</p>
 </div>
+
+<div id="nb7" onClick="notabene('nb71')">
+<div class="i">i</div>
+<p id="nb71" style = "display: none; background-color: white; text-align: left;">
+	<div id="z11">
+    </br>обеспеченные залогом требования, включая %, а также мораторные % - п.8 Пленума №88 от 06.12.2013
+</div>
+</br></p>
+</div>
+
+<div id="nb8" onClick="notabene('nb81')">
+<div class="i">i</div>
+<p id="nb81" style = "display: none; background-color: white; text-align: left;">
+</br></p>
+</div>
+
+
+
+
 </body>
+
 <footer>&copy М.Э. Пляцидевская, 2019</footer>
 
 
