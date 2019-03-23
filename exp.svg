@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="77.7668mm"
+   height="36.055515mm"
+   viewBox="0 0 77.7668 36.055515"
+   version="1.1"
+   id="svg6893"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="exp.svg">
+  <defs
+     id="defs6887">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M -11.554061,463.25741 C 38.258414,490.67485 144.23645,489.99659 78.315321,434.6688"
+       id="path6851"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-122.82137"
+     inkscape:cy="-415.8004"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="706"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata6890">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-2.258393,-2.7639615)">
+    <g
+       transform="matrix(0.35277777,0,0,-0.35277777,30.994048,213.08928)"
+       id="g6870">
+      <path
+         sodipodi:nodetypes="zssaccz"
+         inkscape:connector-curvature="0"
+         id="path6789"
+         d="m 28.093732,526.44306 c 29.185488,-15.34024 44.804195,-9.5895 103.010348,-16.29662 9.45648,-1.08967 10.32383,-13.39043 0.62852,-14.74043 -24.44667,-3.40401 -78.026842,1.52346 -113.36853,15.91654 -37.964701,15.46131 -99.077806,72.84864 -99.077806,72.84864 l 41.471699,11.59424 c 0,0 38.1502811,-53.98213 67.335769,-69.32237 z"
+         style="opacity:0.43800001;fill:#0000ff;stroke:#000080;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <text
+         transform="matrix(0.97498181,0.22228466,0.22228466,-0.97498181,-43.730867,968.06668)"
+         y="-3.0440247e-021"
+         x="-70.193329"
+         id="text6857"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
+         xml:space="preserve"><textPath
+           id="textPath6859"
+           xlink:href="#path6851"><tspan
+   id="tspan6855"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.75"><tspan
+     x="-24.707905"
+     y="-518.08972"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.75"
+     id="tspan6853">за предмет залога</tspan></tspan></textPath></text>
+    </g>
+  </g>
+</svg>
