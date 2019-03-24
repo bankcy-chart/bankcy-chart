@@ -1,0 +1,411 @@
+﻿<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  </head>
+
+<style>
+  h2 {
+    margin-left: 200px;
+  }
+
+footer {
+	top: 600px;
+	text-align: center;
+	color:grey;
+	position: absolute;
+	
+	}
+	
+  div {
+    position: absolute;
+    z-index: 2;
+    border: solid black 1px;
+    text-align: center;
+    font-size: 11px;
+  }
+
+  .i {
+    margin: 0 auto;
+    line-height: 10px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #4682B4;
+    border-color: #4169E1;
+    color: white;
+ }
+	
+  #s1 {
+    position: absolute;
+    z-index: -1;
+    left: 30px;
+    top: 50px;
+  }
+
+  #s2 {
+    position: absolute;
+    left: 410px;
+    top: 170px;
+  }
+
+  #s3 {
+    position: absolute;
+    left: 515px;
+    top: 170px;
+  }
+
+
+  #debt {
+    position: absolute;
+    left: 200px;
+    top: 96px;
+  }
+
+  #exp {
+    position: absolute;
+    left: 100px;
+    top: 96px;
+  }
+
+  #z1 {
+    border: none;
+    width: 100px;
+    left: 0px;
+    top: 30px;
+  }
+
+  #z2 {
+    border: none;
+    width: 150px;
+    left: 30px;
+    top: 240px;
+  }
+
+  #z3 {
+    border: none;
+    color: white;
+    left: 230px;
+    top: 130px;
+  }
+
+  #z4 {
+    border: none;
+    left: 340px;
+    top: 220px;
+  }
+
+  #z5 {
+    width: 230px;
+    height: 120px;
+    left: 325px;
+    top: 300px;
+  }
+
+  #z6 {
+    width: 100px;
+    height: 80px;
+    left: 335px;
+    top: 325px;
+  }
+
+  #z7 {
+    width: 100px;
+    height: 50px;
+    left: 445px;
+    top: 325px;
+  }
+
+  #z8 {
+    border: none;
+    left: 580px;
+    top: 200px;
+  }
+
+
+  #z9 {
+    height: 80px;
+    width: 100px;
+    left: 580px;
+    top: 290px;
+  }
+
+  #z10 {
+    border: none;
+    left: 730px;
+    top: 130px;
+  }
+
+
+  #z12 {
+    height: 100px;
+    width: 150px;
+    left: 740px;
+    top: 395px;
+  }
+
+
+
+  #z14 {
+    border: none;
+    text-align: left;
+    width: 450px;
+    left: 895px;
+    top: 10px;
+  }
+
+  #nb1 {
+    border: none;
+    text-align: center;
+    font-style: italic;
+    width: 178px;
+    top: 43px;
+  }
+
+  #nb2 {
+    border: none;
+    text-align: center;
+    font-style: italic;
+    width: 200px;
+    left: 60px;
+    top: 350px;
+  }
+
+  #nb3 {
+    border: none;
+    text-align: center;
+    font-style: italic;
+    width: 200px;
+    left: 395px;
+    top: 348px;
+  }
+
+  #nb4 {
+    border: none;
+    text-align: center;
+    font-style: italic;
+    width: 200px;
+    left: 565px;
+    top: 325px;
+  }
+
+
+  #nb5 {
+    border: none;
+    text-align: center;
+    font-style: italic;
+    width: 200px;
+    left: 750px;
+    top: 393px;
+  }
+
+  #nb6 {
+    border: none;
+    text-align: center;
+    font-style: italic;
+    width: 200px;
+    left: 730px;
+    top: 510px;
+  }
+	
+  #nb7 {
+    border: none;
+    text-align: center;
+    font-style: italic;
+    width: 150px;
+    left: 595px;
+    top: 518px;
+  }
+
+  #nb8 {
+    border: none;
+    text-align: center;
+    font-style: italic;
+    width: 150px;
+    left: 597px;
+    top: 582px;
+  }
+	
+</style>
+
+<script type="text/javascript">
+	
+	src="https://d3js.org/d3.v3.min.js"
+	
+	function action1 () {
+            var i1;
+            i1 = document.getElementById("input1").value;
+            z1.innerHTML = "Выручка от реализации</br>" + i1 + " руб.";
+
+
+            var i2 = document.getElementById("input2").value;
+	    z2.innerHTML = "Расходы на обеспечение сохранности и реализацию на торгах</br>" + i2 + " руб.";
+
+            var r1 = i1 - i2; //выручка за вычетом расходов на сохранность и реализацию (остаток)
+            z3.innerHTML = "Остаток " + r1 + " руб.</br>(принимается за 100%)";
+
+            var r2, r3, r4, r5, r6, r7;
+
+            var i3;
+	    i3 = document.getElementById("input3");
+            if (i3.checked) {
+                r2 = 0.05;
+                r3 = r1 * r2;
+                r4 = 0.15;
+                r5 = r1 * r4;
+                r6 = 0.8;
+                r7 = r1 * r6;
+                    if (r1 == 0) {                 
+                        z4.innerHTML = "5%";
+                        z8.innerHTML = "15%";
+                        z10.innerHTML = "80%";
+                     } else {
+                        z4.innerHTML = "5%</br>" + r3 + " руб.";
+                        z8.innerHTML = "15%</br>" + r5 + " руб.";
+                        z10.innerHTML = "80%</br>" + r7 + " руб.";
+                     }
+
+            } else {
+                r2 = 0.1;
+                r3 = r1 * r2;
+                r4 = 0.2;
+                r5 = r1 * r4;
+                r6 = 0.7;
+                r7 = r1 * r6;
+                    if (r1 == 0) {                 
+                        z4.innerHTML = "10%";
+                        z8.innerHTML = "20%";
+                        z10.innerHTML = "70%";
+                     } else {
+                        z4.innerHTML = "10%</br>" + r3 + " руб.";
+                        z8.innerHTML = "20%</br>" + r5 + " руб.";
+                        z10.innerHTML = "70%</br>" + r7 + " руб.";
+                     }
+            }
+
+
+
+
+	    var i9 = document.getElementById("input9");
+            if (i9.checked) {
+                s9.style.display = "none";
+            } else {
+                s9.style.display = "block";
+            }
+
+}
+
+    function notabene (n) {
+    style = document.getElementById(n).style;
+    style.display = (style.display == 'block') ? 'none' : 'block';
+    } 
+
+
+</script>
+<body>
+<h2>Распределение средств,</br>вырученных от реализации предмета залога</br><span style="text-align: right;">(ст.138 ЗоБ + п.15 Пленум №58)</span></h2>
+<img id="s1" src="s1.svg">
+<div id="z1">
+   Выручка от реализации
+</div>
+<div id="z2">
+    Расходы на обеспечение сохранности</br>и реализацию на торгах
+</div>
+<div id="z3">
+    Остаток</br>(принимается за 100%)
+</div>
+<div id="z4">
+    10%
+</div>
+
+<div id="z8">
+    20%
+</div>
+
+<div id="z10">
+    70%
+</div>
+
+
+
+<img id="debt" src="debts.svg">
+<img id="exp" src="exp.svg">
+
+<div id="z14">
+                    <h3>Калькулятор</h3>
+	            <p>Укажите:</p>
+                    <form action="" method="post">
+                    выручка от реализации <input type="text" id="input1" onInput="action1(this)" /> руб.</br>
+                    расходы на обеспечение сохранности предмета залога и его реализацию на торгах <input type="text" id="input2" onInput="action1(this)" /> руб.<br/>
+                    отметьте, если обеспеченное залогом требование, является кредитом <input type="checkbox" id="input3" onClick="action1(this)" /><br/>
+                    <!--текущие платежи <input type="text" id="input4" onInput="action1(this)" /><br/>
+                    судебные расходы, вознаграждение арбитражного управляющего и оплата услуг привлеченных им лиц <input type="text" id="input5" onInput="action1(this)" /><br/>
+                    сумма требований 1-2 очереди, которая должна быть удовлетворена из стоимости предмета залога <input type="text" id="input6" onInput="action1(this)" /><br/>
+
+                    сумма обеспеченного залогом требования (учитывается частичный отказ от залогового статуса, но не оценка), а также расходы на обращение взыскания на заложенное имущество, понесённые ранее возбуждения дела о банкротстве (п.17 ППВАС58)<input type="text" id="input7" onInput="action1(this)" /><br/>
+                    мораторные проценты <input type="text" id="input8" onInput="action1(this)" /><br/>
+                    -->отметьте, если требования к кредитору основаны только на залоге (денежных требований не имеет)<input type="checkbox" id="input9" onClick="action1(this)" /><br/>
+                    </form> 
+</br>
+<h3>Дополнительная информация:</h3>
+<p><a href="https://zakon.ru/blog/2019/3/20/pravila_raspredeleniya_vyruchki_ot_prodazhi_zaloga_dlya_opredeleniya_predpochteniya_pri_udovletvoren">Правила распределения выручки от продажи залога для определения предпочтения при удовлетворении залоговых требований</a></p>
+</div>
+
+<div id="nb1" onClick="notabene('nb11')">
+<div class="i">i</div>
+<p id="nb11" style = "display: none; background-color: white; text-align: left;">Если предмет залога входит в состав предприятия должника, предприятие может быть продано как единый объект. При проведении оценки предприятия должно быть отдельно оценено заложенное имущество. Залоговый кредитор имеет право преимущественного удовлетворения своих требований из части денежной суммы, вырученной от продажи предприятия, исходя из соотношения начальной продажной цены предмета залога, установленной судом, и начальной продажной цены предприятия (п.14 Постановления Пленума ВАС РФ от 23.07.2009 №58 "О некоторых вопросах, связанных с удовлетворением требований залогодержателя при банкротстве залогодателя").
+</p>
+</div>
+
+<div id="nb2" onClick="notabene('nb21')">
+<div class="i">i</div>
+<p id="nb21" style = "display: none; background-color: white; text-align: left;">В случае превышения КУ разумного периода реализации залога образовавшаяся в этот период сумма необоснованно понесенных эксплуатационных платежей, в т.ч. напрямую не связанных с обеспечением сохранности имущества должника, также подлежит вычету из 5/10%, направляемых на погашение текущих расходов. Проценты по вознаграждению КУ выплачиваются из оставшейся суммы (п.17 Обзора "Обзор судебной практики Верховного Суда Российской Федерации N 4 (2017)", утв. Президиумом ВС РФ 15.11.2017).</p>
+</div>
+
+<svg height="100" width="100">
+	<line x1="20" y1="50" x2="30" y2="100"></line>
+	<line></line>
+</svg>
+
+<div id="nb3" onClick="notabene('nb31')">
+<div class="i">i</div>
+<p id="nb31" style = "display: none; background-color: white; text-align: left;">В число судебных расходов согласно п.1 ст.59 ЗоБ включаются также расходы на опубликование сведений в порядке, установленном ст.28 ЗоБ (абз.2 п.15 ППВАС58). Там же указано, что к этой категории текущих платежей относятся расходы, связанные с продажей заложенного имущества (оплата издержек и вознаграждения организатора торгов и т.п.), однако в связи с введением законом от 29.12.2014 #482-ФЗ п.6 ст.138 ЗоБ, устанавливающего погашение расходов на</p>
+</div>
+
+<div id="nb4" onClick="notabene('nb41')">
+<div class="i">i</div>
+<p id="nb41" style = "display: none; background-color: white; text-align: left;">если для их погашения недостаточно др. имущества должника - ст.138ЗоБ), аналогичные требования, возникшие после возбуждения дела о банкротстве (абз.2 п.15 ППВАС58)
+</div>
+
+<div id="nb5" onClick="notabene('nb51')">
+<div class="i">i</div>
+<p id="nb51" style = "display: none; background-color: white; text-align: left;">Если различное имущество должника находится в залоге у разных залогодержателей, денежные средства в соответствующей пропорции перечисляются на специальный банковский счет должника от продажи каждого предмета залога. Затраты на покрытие текущих платежей и погашение требований кредиторов первой и второй очереди залогодержатели несут пропорционально размеру средств, вырученных от продажи каждого предмета залога. (абзац 8 п.15 Постановления Пленума ВАС РФ от 23.07.2009 "О некоторых вопросах, связанных с удовлетворением требований залогодержателя при банкротстве залогодателя).
+</p>
+</div>
+
+<div id="nb6" onClick="notabene('nb61')">
+<div class="i">i</div>
+<p id="nb61" style = "display: none; background-color: white; text-align: left;">Не удовлетворённые за счёт стоимости предмета залога требования кредиторов по обязательствам, обеспеченным залогом имущества должника, удовлетворяются в составе требований кредиторов третьей очереди (абз.4 п.2.1. ст.138 ЗоБ).
+</br>При расчётах с кредиторами необходимо иметь в виду, что требования залогового кредитора [не имеющего денежных требований к должнику] не могут погашаться из выручки от продажи имущества, не находящегося в залоге (п.20 ППВАС58).</p>
+</div>
+
+<div id="nb7" onClick="notabene('nb71')">
+<div class="i">i</div>
+<p id="nb71" style = "display: none; background-color: white; text-align: left;">мораторные % -</br>п.8 Пленума №88 от 06.12.2013
+</p>
+</div>
+
+<div id="nb8" onClick="notabene('nb81')">
+<div class="i">i</div>
+<p id="nb81" style = "display: none; background-color: white; text-align: left;">обеспеченная залогом неустойка</br>(Определение ВС РФ от 30.03.2017 №301-ЭС16-17271 и п.14 Обзора ВС РФ №3(2017) от 12.07.2017)</br></p>
+</div>
+
+
+
+
+</body>
+
+<footer>&copy М.Э. Пляцидевская, 2019</footer>
+
+
+</html>

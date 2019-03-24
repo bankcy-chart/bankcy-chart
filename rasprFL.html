@@ -1,0 +1,317 @@
+﻿<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  </head>
+
+<style>
+  h2 {
+    margin-left: 200px;
+  }
+
+footer {
+	top: 650px;
+	text-align: center;
+	color:grey;
+	position: absolute;
+	
+	}
+	
+  div {
+    position: absolute;
+    z-index: 2;
+    border: solid black 1px;
+    text-align: center;
+    font-size: 11px;
+  }
+
+  .i {
+    margin: 0 auto;
+    line-height: 10px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #4682B4;
+    border-color: #4169E1;
+    color: white;
+ }
+	
+  #s1 {
+    position: absolute;
+    z-index: -1;
+    left: 30px;
+    top: 50px;
+  }
+
+  #s2 {
+    position: absolute;
+    left: 410px;
+    top: 170px;
+  }
+
+  #s3 {
+    position: absolute;
+    left: 515px;
+    top: 170px;
+  }
+
+
+  #debt {
+    position: absolute;
+    left: 200px;
+    top: 96px;
+  }
+
+  #exp {
+    position: absolute;
+    left: 100px;
+    top: 96px;
+  }
+
+  #z1 {
+    border: none;
+    width: 100px;
+    left: 0px;
+    top: 30px;
+  }
+
+  #z2 {
+    border: none;
+    width: 150px;
+    left: 30px;
+    top: 240px;
+  }
+
+  #z3 {
+    border: none;
+    color: white;
+    left: 230px;
+    top: 130px;
+  }
+
+  #z4 {
+    border: none;
+    left: 340px;
+    top: 220px;
+  }
+
+  #z5 {
+    width: 230px;
+    height: 120px;
+    left: 325px;
+    top: 300px;
+  }
+
+  #z6 {
+    width: 100px;
+    height: 80px;
+    left: 335px;
+    top: 325px;
+  }
+
+  #z7 {
+    width: 100px;
+    height: 50px;
+    left: 445px;
+    top: 325px;
+  }
+
+  #z8 {
+    border: none;
+    left: 580px;
+    top: 200px;
+  }
+
+
+  #z9 {
+    height: 80px;
+    width: 100px;
+    left: 580px;
+    top: 290px;
+  }
+
+  #z10 {
+    border: none;
+    left: 730px;
+    top: 130px;
+  }
+
+
+  #z12 {
+    height: 100px;
+    width: 150px;
+    left: 740px;
+    top: 395px;
+  }
+
+
+
+  #z14 {
+    border: none;
+    text-align: left;
+    width: 450px;
+    left: 895px;
+    top: 10px;
+  }
+
+  #nb1 {
+    border: none;
+    text-align: center;
+    font-style: italic;
+    width: 178px;
+    top: 43px;
+  }
+
+  #nb2 {
+    border: none;
+    text-align: center;
+    font-style: italic;
+    width: 200px;
+    left: 60px;
+    top: 350px;
+  }
+
+  #nb3 {
+    border: none;
+    text-align: center;
+    font-style: italic;
+    width: 200px;
+    left: 395px;
+    top: 348px;
+  }
+
+  #nb4 {
+    border: none;
+    text-align: center;
+    font-style: italic;
+    width: 200px;
+    left: 565px;
+    top: 325px;
+  }
+
+
+  #nb5 {
+    border: none;
+    text-align: center;
+    font-style: italic;
+    width: 200px;
+    left: 750px;
+    top: 393px;
+  }
+
+  #nb6 {
+    border: none;
+    text-align: center;
+    font-style: italic;
+    width: 200px;
+    left: 730px;
+    top: 510px;
+  }
+	
+  #nb7 {
+    border: none;
+    text-align: center;
+    font-style: italic;
+    width: 150px;
+    left: 595px;
+    top: 518px;
+  }
+
+  #nb8 {
+    border: none;
+    text-align: center;
+    font-style: italic;
+    width: 150px;
+    left: 597px;
+    top: 582px;
+  }
+	
+</style>
+
+<script type="text/javascript">
+	
+	src="https://d3js.org/d3.v3.min.js"
+	
+	function action1 () {
+            var i1;
+            i1 = document.getElementById("input1").value;
+            z1.innerHTML = "Выручка от реализации</br>" + i1 + " руб.";
+
+
+            var i2 = document.getElementById("input2").value;
+	    z2.innerHTML = "Расходы на обеспечение сохранности и реализацию на торгах</br>" + i2 + " руб.";
+
+            var r1 = i1 - i2; //выручка за вычетом расходов на сохранность и реализацию (остаток)
+            z3.innerHTML = "Остаток " + r1 + " руб.</br>(принимается за 100%)";
+
+            var r2, r3, r4, r5, r6, r7;
+
+            var i3;
+	    i3 = document.getElementById("input3");
+            if (i3.checked) {
+                r2 = 0.05;
+                r3 = r1 * r2;
+                r4 = 0.15;
+                r5 = r1 * r4;
+                r6 = 0.8;
+                r7 = r1 * r6;
+                    if (r1 == 0) {                 
+                        z4.innerHTML = "5%";
+                        z8.innerHTML = "15%";
+                        z10.innerHTML = "80%";
+                     } else {
+                        z4.innerHTML = "5%</br>" + r3 + " руб.";
+                        z8.innerHTML = "15%</br>" + r5 + " руб.";
+                        z10.innerHTML = "80%</br>" + r7 + " руб.";
+                     }
+
+            } else {
+                r2 = 0.1;
+                r3 = r1 * r2;
+                r4 = 0.2;
+                r5 = r1 * r4;
+                r6 = 0.7;
+                r7 = r1 * r6;
+                    if (r1 == 0) {                 
+                        z4.innerHTML = "10%";
+                        z8.innerHTML = "20%";
+                        z10.innerHTML = "70%";
+                     } else {
+                        z4.innerHTML = "10%</br>" + r3 + " руб.";
+                        z8.innerHTML = "20%</br>" + r5 + " руб.";
+                        z10.innerHTML = "70%</br>" + r7 + " руб.";
+                     }
+            }
+
+
+
+
+	    var i9 = document.getElementById("input9");
+            if (i9.checked) {
+                s9.style.display = "none";
+            } else {
+                s9.style.display = "block";
+            }
+
+}
+
+    function notabene (n) {
+    style = document.getElementById(n).style;
+    style.display = (style.display == 'block') ? 'none' : 'block';
+    } 
+
+
+</script>
+<body>
+<h2>Распределение средств,</br>вырученных от реализации предмета залога в банкротстве гражданина</br><span style="text-align: right;">(п.5 ст.213.27 ЗоБ + Определние ВС РФ от 24.12.2018 №304-ЭС18-13615)</span></h2>
+<img id="FL" src="FL.svg">
+
+
+
+
+</body>
+
+<footer>&copy М.Э. Пляцидевская, 2019</footer>
+
+
+</html>
