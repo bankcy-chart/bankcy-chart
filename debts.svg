@@ -987,9 +987,9 @@
      inkscape:window-height="706"
      id="namedview14074"
      showgrid="false"
-     inkscape:zoom="1.6818699"
-     inkscape:cx="-10.674545"
-     inkscape:cy="661.81696"
+     inkscape:zoom="0.84093495"
+     inkscape:cx="451.84478"
+     inkscape:cy="782.37094"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -1065,16 +1065,16 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="sssssssss" /><path
        style="opacity:0.3;fill:#00ff00;stroke:#008000;stroke-width:0.91749048;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 389.99783,663.15412 c -26.00682,14.12857 -125.0895,2.9525 -138.84997,-3.05277 -19.83111,-8.6546 -10.08143,-53.16061 -22.33736,-62.57193 -15.74311,-12.08912 -101.4925,-3.63981 -127.06057,-5.88114 -12.087511,-1.05961 -15.897737,-26.56638 -4.487765,-29.21665 38.731615,-8.99644 95.084185,2.22593 111.550975,-3.85263 18.1184,-9.46592 12.52634,-53.81309 0.80656,-61.67936 -11.53873,-6.30907 -61.38992,1.1769 -85.33869,-5.21795 -19.62089,-5.23921 -12.4265,-38.6916 2.46191,-45.42845 17.91466,-8.10618 81.19093,4.99493 94.39893,19.61803 10.05206,11.12903 6.67802,72.56574 32.03267,86.75036 11.38908,6.3716 120.33562,-5.94405 136.66568,3.01881 16.54144,9.07888 14.93586,99.48518 0.15763,107.51368 z"
+       d="m 389.99783,663.15412 c -26.00682,14.12857 -125.0895,2.9525 -138.84997,-3.05277 -19.83111,-8.6546 -10.08143,-53.16061 -22.33736,-62.57193 -15.74311,-12.08912 -101.4925,-3.63981 -127.06057,-5.88114 -12.087511,-1.05961 -15.897737,-26.56638 -4.487765,-29.21665 38.731615,-8.99644 95.084185,2.22593 111.550975,-3.85263 18.1184,-9.46592 12.52634,-53.81309 0.80656,-61.67936 -11.53873,-6.30907 -61.38992,1.1769 -85.33869,-5.21795 -19.62089,-5.23921 -12.4265,-38.6916 2.46191,-45.42845 17.91466,-8.10618 73.69093,4.99493 86.89893,19.61803 10.05206,11.12903 14.17802,72.56574 39.53267,86.75036 11.38908,6.3716 120.33562,-5.94405 136.66568,3.01881 16.54144,9.07888 14.93586,99.48518 0.15763,107.51368 z"
        id="path10121"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="sssssccssssss" /><path
-       style="fill:none;stroke:#008080;stroke-width:13.125;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#008080;stroke-width:10.20472466;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 59.638265,640.4845 c -20.397605,36.56667 24.156453,59.25393 66.681185,37.52259"
        id="path11587"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" /><path
-       style="fill:none;stroke:#008080;stroke-width:13.125;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#008080;stroke-width:7.08661435;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 184.78309,670.27843 c 24.02341,29.1376 47.24356,24.31509 90.05589,8.82901"
        id="path11589"
        inkscape:connector-curvature="0"
@@ -1084,12 +1084,12 @@
        id="path11591"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" /><path
-       style="fill:none;stroke:#00d400;stroke-width:13.125;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#00d400;stroke-width:10.20472466;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 264.13285,521.38338 C 245.378,499.22993 223.10964,508.48564 203.98822,518.27118"
        id="path11593"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" /><path
-       style="fill:none;stroke:#00d400;stroke-width:13.125;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#00d400;stroke-width:7.08661435;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 208.45667,539.20498 c 14.36319,18.08699 30.70127,15.85507 49.2389,4.96541"
        id="path11595"
        inkscape:connector-curvature="0"
@@ -1116,6 +1116,7 @@
      id="tspan15714">5) иные </tspan></text>
 
 
+
 </g></g><g
                id="g15718"><g
                  id="g15720"
@@ -1129,6 +1130,7 @@
      id="tspan15726">платежи</tspan></text>
 
 
+
 </g></g><g
                id="g15730"><g
                  id="g15732"
@@ -1139,6 +1141,7 @@
      x="0"
      y="0"
      id="tspan15738">,</tspan></text>
+
 
 
 </g></g><g
@@ -1160,6 +1163,7 @@
      id="tspan15766">в т.ч. авторское </tspan></text>
 
 
+
 </g></g><g
                id="g15770"><g
                  id="g15772"
@@ -1171,6 +1175,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan15778">вознаграждение, вред </tspan></text>
+
 
 
 </g></g><g
@@ -1186,6 +1191,7 @@
      id="tspan15790">жизни и </tspan></text>
 
 
+
 </g></g><g
                id="g15794"><g
                  id="g15796"
@@ -1197,6 +1203,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan15802">здоровью</tspan></text>
+
 
 
 </g></g><g
@@ -1275,7 +1282,7 @@
              id="g15850"
              clip-path="url(#clipPath15854)" /></g></g></g><g
        id="g15578"
-       transform="matrix(0.7,0,0,0.7,-7.0434,131.709)"><g
+       transform="matrix(0.7,0,0,0.7,-28.0434,131.709)"><g
          id="g15580"
          clip-path="url(#clipPath15584)"><g
            id="g15586"><g
@@ -1296,6 +1303,7 @@
      id="tspan15610">4) эксплуатационные п</tspan></text>
 
 
+
 </g></g><g
                id="g15614"><g
                  id="g15616"
@@ -1307,6 +1315,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan15622">латежи</tspan></text>
+
 
 
 </g></g><g
@@ -1392,6 +1401,7 @@
      id="tspan14696">2) зарплата, выходные пособия</tspan></text>
 
 
+
 </g></g><g
                    id="g14700"><g
                      id="g14702"
@@ -1460,6 +1470,7 @@
      id="tspan14098">Текущие платежи</tspan></text>
 
 
+
 </g></g><g
            id="g14102"><g
              id="g14104"
@@ -1474,6 +1485,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan14118">(п.2 ст.134 ЗоБ)</tspan></text>
+
 
 
 </g></g><g
@@ -1502,6 +1514,7 @@
      id="tspan14226">1) </tspan></text>
 
 
+
 </g></g><g
                id="g14230"><g
                  id="g14232"
@@ -1513,6 +1526,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan14238">судебные расходы, </tspan></text>
+
 
 
 </g></g><g
@@ -1528,6 +1542,7 @@
      id="tspan14250">вознаграждение АУ, оплата услуг </tspan></text>
 
 
+
 </g></g><g
                id="g14254"><g
                  id="g14256"
@@ -1541,6 +1556,7 @@
      id="tspan14262">ли</tspan></text>
 
 
+
 </g></g><g
                id="g14266"><g
                  id="g14268"
@@ -1551,6 +1567,7 @@
      x="0"
      y="0"
      id="tspan14274">ц</tspan></text>
+
 
 
 </g></g><g
@@ -1566,6 +1583,7 @@
      id="tspan14286">, </tspan></text>
 
 
+
 </g></g><g
                id="g14290"><g
                  id="g14292"
@@ -1579,6 +1597,7 @@
      id="tspan14298">чьё привлечение </tspan></text>
 
 
+
 </g></g><g
                id="g14302"><g
                  id="g14304"
@@ -1590,6 +1609,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan14310">обязательно</tspan></text>
+
 
 
 </g></g><g
@@ -1669,6 +1689,7 @@
      id="tspan15008">3) </tspan></text>
 
 
+
 </g></g><g
                id="g15012"><g
                  id="g15014"
@@ -1680,6 +1701,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan15020">оплата услуг </tspan></text>
+
 
 
 </g></g><g
@@ -1695,6 +1717,7 @@
      id="tspan15032">ли</tspan></text>
 
 
+
 </g></g><g
                id="g15036"><g
                  id="g15038"
@@ -1705,6 +1728,7 @@
      x="0"
      y="0"
      id="tspan15044">ц</tspan></text>
+
 
 
 </g></g><g
@@ -1720,6 +1744,7 @@
      id="tspan15056">, чьё </tspan></text>
 
 
+
 </g></g><g
                id="g15060"><g
                  id="g15062"
@@ -1733,6 +1758,7 @@
      id="tspan15068">привлечение </tspan></text>
 
 
+
 </g></g><g
                id="g15072"><g
                  id="g15074"
@@ -1744,6 +1770,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan15080">не</tspan></text>
+
 
 
 </g></g><g
@@ -1760,6 +1787,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan15100">обязательно</tspan></text>
+
 
 
 </g></g><g
@@ -1839,6 +1867,7 @@
      id="tspan14402">Первая очередь</tspan></text>
 
 
+
 </g></g><g
                id="g14406"><g
                  id="g14408"
@@ -1886,6 +1915,7 @@
      id="tspan14444">ответственность за </tspan></text>
 
 
+
 </g></g><g
                id="g14448"><g
                  id="g14450"
@@ -1897,6 +1927,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan14456">вред </tspan></text>
+
 
 
 </g></g><g
@@ -1912,6 +1943,7 @@
      id="tspan14468">жизни</tspan></text>
 
 
+
 </g></g><g
                id="g14472"><g
                  id="g14474"
@@ -1922,6 +1954,7 @@
      x="0"
      y="0"
      id="tspan14480">/</tspan></text>
+
 
 
 </g></g><g
@@ -1937,6 +1970,7 @@
      id="tspan14492">здоровью, путем капитализации </tspan></text>
 
 
+
 </g></g><g
                id="g14496"><g
                  id="g14498"
@@ -1948,6 +1982,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan14504">соответствующи</tspan></text>
+
 
 
 </g></g><g
@@ -1963,6 +1998,7 @@
      id="tspan14516">х повременных </tspan></text>
 
 
+
 </g></g><g
                id="g14520"><g
                  id="g14522"
@@ -1974,6 +2010,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan14528">платежей</tspan></text>
+
 
 
 </g></g><g
@@ -1989,6 +2026,7 @@
      id="tspan14540">; </tspan></text>
 
 
+
 </g></g><g
                id="g14544"><g
                  id="g14546"
@@ -2000,6 +2038,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan14552">расчеты по иным </tspan></text>
+
 
 
 </g></g><g
@@ -2015,6 +2054,7 @@
      id="tspan14564">установленным </tspan></text>
 
 
+
 </g></g><g
                id="g14568"><g
                  id="g14570"
@@ -2026,6 +2066,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan14576">ЗоБ требованиям</tspan></text>
+
 
 
 </g></g><g
@@ -2091,6 +2132,7 @@
      id="tspan14162">Реестровые требования</tspan></text>
 
 
+
 </g></g><g
            id="g14166"><g
              id="g14168"
@@ -2105,6 +2147,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan14182">(п.4 ст.134 ЗоБ)</tspan></text>
+
 
 
 </g></g><g
@@ -2132,6 +2175,7 @@
      id="tspan15176">Т</tspan></text>
 
 
+
 </g></g><g
                id="g15180"><g
                  id="g15182"
@@ -2143,6 +2187,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan15188">ретья</tspan></text>
+
 
 
 </g></g><g
@@ -2161,6 +2206,7 @@
      id="tspan15208">очередь</tspan></text>
 
 
+
 </g></g><g
                id="g15212"><g
                  id="g15214"
@@ -2171,6 +2217,7 @@
      x="0"
      y="0"
      id="tspan15220">:</tspan></text>
+
 
 
 </g></g><g
@@ -2220,6 +2267,7 @@
      id="tspan15262">3.1) ОД + %, в т.ч. мораторные:</tspan></text>
 
 
+
 </g></g><g
                id="g15266"><g
                  id="g15268"
@@ -2237,6 +2285,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan15290">залоговые</tspan></text>
+
 
 
 </g></g><g
@@ -2309,6 +2358,7 @@
      id="tspan15350">незалоговые</tspan></text>
 
 
+
 </g></g><g
                    id="g15354"><g
                      id="g15356"
@@ -2376,6 +2426,7 @@
      id="tspan15402">3.2) санкции:</tspan></text>
 
 
+
 </g></g><g
                id="g15406"><g
                  id="g15408"
@@ -2393,6 +2444,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan15430">залоговые</tspan></text>
+
 
 
 </g></g><g
@@ -2463,6 +2515,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan15490">незалоговые</tspan></text>
+
 
 
 </g></g><g
@@ -2584,6 +2637,7 @@
      id="tspan14764">В</tspan></text>
 
 
+
 </g></g><g
                id="g14768"><g
                  id="g14770"
@@ -2597,6 +2651,7 @@
      id="tspan14776">торая </tspan></text>
 
 
+
 </g></g><g
                id="g14780"><g
                  id="g14782"
@@ -2608,6 +2663,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan14788">очередь</tspan></text>
+
 
 
 </g></g><g
@@ -2657,6 +2713,7 @@
      id="tspan14830">зарплата, выходные </tspan></text>
 
 
+
 </g></g><g
                id="g14834"><g
                  id="g14836"
@@ -2670,6 +2727,7 @@
      id="tspan14842">пособия</tspan></text>
 
 
+
 </g></g><g
                id="g14846"><g
                  id="g14848"
@@ -2680,6 +2738,7 @@
      x="0"
      y="0"
      id="tspan14854">,</tspan></text>
+
 
 
 </g></g><g
@@ -2701,6 +2760,7 @@
      id="tspan14882">авторское </tspan></text>
 
 
+
 </g></g><g
                id="g14886"><g
                  id="g14888"
@@ -2712,6 +2772,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan14894">вознаграждение</tspan></text>
+
 
 
 </g></g><g
